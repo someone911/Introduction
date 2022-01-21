@@ -1,0 +1,114 @@
+@keyframes rainbow {
+  0% {
+    border-color: hsl(0, 100%, 50%);
+  }
+  100% {
+    border-color: hsl(255, 100%, 50%);
+  }
+}
+
+body {
+  background-color: black;
+  background-image: url(../media/bg2.jpg);
+  background-size: 575px;
+}
+
+.square {
+  border: solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: rainbow 5s infinite alternate;
+}
+
+.pfp {
+  border: solid black;
+  border-radius: 50%;
+  background-image: url(../media/pfp.png);
+  background-size: 300px;
+  background-position-y: -2rem;
+}
+
+p {
+  font-family: Chalkduster, fantasy;
+  padding: 0;
+  margin: 1ch;
+}
+
+#credits {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: red;
+  padding-left: 5px;
+}
+
+#SM {
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+#SM p {
+  position: relative;
+  top: 25px;
+  margin: 12px;
+}
+
+#SM a {
+  position: relative;
+  top: 25px;
+  margin: 12px;
+}
+
+#personality {
+  position: relative;
+  left: 418px;
+  bottom: 416px;
+}
+
+#DM {
+  left: 310px;
+}
+
+#countdown {
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../media/bg3.jpg);
+    background-size: 800px;
+  }
+
+  .square {
+    margin-left: 230px;
+    height: 450px;
+    width: 450px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url(../media/bg.gif);
+    background-size: 1980px;
+  }
+  .pfp {
+    height: 215px;
+    width: 215px;
+  }
+
+  .square {
+    margin-left: 768px;
+    margin-top: 10px;
+    position: relative;
+  }
+}
