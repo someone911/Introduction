@@ -17,8 +17,8 @@ body {
   border: solid white;
   background-color: rgba(0, 0, 0, 0.5);
   animation: rainbow 5s infinite alternate;
-  height: 500px;
-  width: 550px;
+  height: 200px;
+  width: 200px;
 }
 
 .pfp {
@@ -102,6 +102,8 @@ a {
   }
   .square {
     margin: auto;
+    width: 500px;
+    height: 500px;
   }
   .social-media {
     position: absolute;
