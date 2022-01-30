@@ -17,8 +17,8 @@ body {
   border: solid white;
   background-color: rgba(0, 0, 0, 0.5);
   animation: rainbow 5s infinite alternate;
-  height: 200px;
-  width: 200px;
+  height: 350px;
+  width: 350px;
 }
 
 .pfp {
