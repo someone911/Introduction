@@ -9,7 +9,7 @@
 
 body {
   background-color: black;
-  background-image: url(../media/bg2.jpg);
+  background-image: url(./media/bg2.jpg);
   background-size: 575px;
 }
 
@@ -17,14 +17,18 @@ body {
   border: solid white;
   background-color: rgba(0, 0, 0, 0.5);
   animation: rainbow 5s infinite alternate;
+  height: 500px;
+  width: 550px;
 }
 
 .pfp {
   border: solid black;
   border-radius: 50%;
-  background-image: url(../media/pfp.png);
+  background-image: url(./media/pfp.png);
   background-size: 300px;
   background-position-y: -2rem;
+  height: 200px;
+  width: 200px;
 }
 
 p {
@@ -43,10 +47,10 @@ a {
   padding-left: 5px;
 }
 
-#SM {
-  position: relative;
-  left: 200px;
-  bottom: 200px;
+.social-media {
+  position: absolute;
+  left: 250px;
+  bottom: 60px;
 }
 
 #SM p {
@@ -77,7 +81,7 @@ a {
 
 @media only screen and (min-width: 768px) {
   body {
-    background-image: url(../media/bg3.jpg);
+    background-image: url(./media/bg3.jpg);
     background-size: 800px;
   }
 
@@ -98,17 +102,15 @@ a {
 
 @media only screen and (min-width: 1024px) {
   body {
-    background-image: url(../media/bg.gif);
+    background-image: url(./media/bg.gif);
     background-size: 1980px;
   }
-  .pfp {
-    height: 215px;
-    width: 215px;
-  }
-
   .square {
-    margin-left: 768px;
-    margin-top: 10px;
-    position: relative;
+    margin: auto;
+  }
+  .social-media {
+    position: absolute;
+    left: 950px;
+    bottom: 570px;
   }
 }
