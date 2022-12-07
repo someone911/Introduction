@@ -110,9 +110,16 @@ a {
     width: 500px;
     height: 500px;
   }
+}
+
+@media only screen and (min-width: 1404px) {
   .social-media {
-    position: absolute;
-    left: 950px;
-    bottom: 570px;
+    margin-left: 250px;
+  }
+}
+
+@media only screen and (min-width: 1404px) {
+  .social-media {
+    margin-left: 1050px;
   }
 }
